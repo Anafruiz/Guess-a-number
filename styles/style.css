@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  height: 100vh;
+  background-color: rgb(243, 200, 208);
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+}
+.main__input {
+  background-color: rgb(197, 195, 195);
+  width: 200px;
+  border-radius: 10%;
+  height: 30px;
+}
+.main__button {
+  padding: 5px;
+  width: 150px;
+  background-color: rgb(18, 212, 177);
+  color: white;
+}
+.main__clue,
+.main__tryNumbers {
+  padding: 5px;
+  border: solid 2px grey;
+  width: 300px;
+}
