@@ -7,6 +7,8 @@ const inputClue=document.querySelector(".js-clue");
 const tryElement=document.querySelector(".js-try");
 const numberRandom=getRandomNumber(100);
 let intentos=0;
+
+
 console.log(numberRandom);
 
 function handleButton (){
@@ -28,8 +30,6 @@ else if(selectValue>numberRandom){
 }
 
 intentos ++;
-console.log(intentos);
-
 tryElement.innerHTML = 'Número de intentos :'+ intentos;
 
 }

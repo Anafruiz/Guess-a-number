@@ -18,6 +18,7 @@
   flex-direction: column;
 }
 .main__input {
+  padding: 10px;
   background-color: rgb(197, 195, 195);
   width: 200px;
   border-radius: 10%;
